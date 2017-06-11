@@ -1,0 +1,67 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Main.cpp
+c:\users\dionn\onedrive\documents\visual studio 2015\projects\lambda_notation\lambda_notation\setoperations.h(37): warning C4275: non dll-interface class 'std::exception' used as base for dll-interface class 'setoperations::OutOfRangeExc'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vcruntime_exception.h(43): note: see declaration of 'std::exception'
+  c:\users\dionn\onedrive\documents\visual studio 2015\projects\lambda_notation\lambda_notation\setoperations.h(36): note: see declaration of 'setoperations::OutOfRangeExc'
+c:\users\dionn\onedrive\documents\visual studio 2015\projects\lambda_notation\lambda_notation\setoperations.h(57): warning C4251: 'setoperations::SetVector<T>::set': class 'std::vector<T,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'setoperations::SetVector<T>'
+  c:\users\dionn\onedrive\documents\visual studio 2015\projects\lambda_notation\lambda_notation\setoperations.h(54): note: see declaration of 'std::vector<T,std::allocator<_Ty>>'
+  c:\users\dionn\onedrive\documents\visual studio 2015\projects\lambda_notation\lambda_notation\setoperations.h(75): note: see reference to class template instantiation 'setoperations::SetVector<T>' being compiled
+c:\users\dionn\onedrive\documents\visual studio 2015\projects\lambda_notation\lambda_notation\setoperations.h(54): warning C4251: 'setoperations::SetVector<collection>::iter': class 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<collection>>>' needs to have dll-interface to be used by clients of class 'setoperations::SetVector<collection>'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(514): note: see declaration of 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<collection>>>'
+  c:\users\dionn\onedrive\documents\visual studio 2015\projects\lambda_notation\test_lambda_notation\main.cpp(22): note: see reference to class template instantiation 'setoperations::SetVector<collection>' being compiled
+c:\users\dionn\onedrive\documents\visual studio 2015\projects\lambda_notation\lambda_notation\setoperations.h(57): warning C4251: 'setoperations::SetVector<collection>::set': class 'std::vector<T,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'setoperations::SetVector<collection>'
+          with
+          [
+              T=collection,
+              _Ty=collection
+          ]
+  c:\users\dionn\onedrive\documents\visual studio 2015\projects\lambda_notation\lambda_notation\setoperations.h(54): note: see declaration of 'std::vector<T,std::allocator<_Ty>>'
+          with
+          [
+              T=collection,
+              _Ty=collection
+          ]
+c:\users\dionn\onedrive\documents\visual studio 2015\projects\lambda_notation\lambda_notation\setoperations.h(54): warning C4251: 'setoperations::SetVector<int>::iter': class 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>' needs to have dll-interface to be used by clients of class 'setoperations::SetVector<int>'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(514): note: see declaration of 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int>>>'
+  c:\users\dionn\onedrive\documents\visual studio 2015\projects\lambda_notation\test_lambda_notation\main.cpp(29): note: see reference to class template instantiation 'setoperations::SetVector<int>' being compiled
+c:\users\dionn\onedrive\documents\visual studio 2015\projects\lambda_notation\lambda_notation\setoperations.h(57): warning C4251: 'setoperations::SetVector<int>::set': class 'std::vector<T,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'setoperations::SetVector<int>'
+          with
+          [
+              T=int,
+              _Ty=int
+          ]
+  c:\users\dionn\onedrive\documents\visual studio 2015\projects\lambda_notation\lambda_notation\setoperations.h(54): note: see declaration of 'std::vector<T,std::allocator<_Ty>>'
+          with
+          [
+              T=int,
+              _Ty=int
+          ]
+c:\users\dionn\onedrive\documents\visual studio 2015\projects\lambda_notation\lambda_notation\setoperations.h(97): warning C4018: '<': signed/unsigned mismatch
+  c:\users\dionn\onedrive\documents\visual studio 2015\projects\lambda_notation\lambda_notation\setoperations.h(94): note: while compiling class template member function 'setoperations::SetVector<int> setoperations::SetVector<int>::FindAll(bool (__cdecl *)(T))'
+          with
+          [
+              T=int
+          ]
+  c:\users\dionn\onedrive\documents\visual studio 2015\projects\lambda_notation\test_lambda_notation\main.cpp(36): note: see reference to function template instantiation 'setoperations::SetVector<int> setoperations::SetVector<int>::FindAll(bool (__cdecl *)(T))' being compiled
+          with
+          [
+              T=int
+          ]
+  c:\users\dionn\onedrive\documents\visual studio 2015\projects\lambda_notation\test_lambda_notation\main.cpp(29): note: see reference to class template instantiation 'setoperations::SetVector<int>' being compiled
+c:\users\dionn\onedrive\documents\visual studio 2015\projects\lambda_notation\lambda_notation\setoperations.h(84): warning C4018: '<': signed/unsigned mismatch
+  c:\users\dionn\onedrive\documents\visual studio 2015\projects\lambda_notation\test_lambda_notation\main.cpp(35): note: see reference to function template instantiation 'setoperations::SetVector<int> setoperations::SetVector<collection>::Select<int>(std::vector<T,std::allocator<_Ty>>,U (__cdecl *)(T))' being compiled
+          with
+          [
+              T=collection,
+              _Ty=collection,
+              U=int
+          ]
+  c:\users\dionn\onedrive\documents\visual studio 2015\projects\lambda_notation\test_lambda_notation\main.cpp(36): note: see reference to function template instantiation 'setoperations::SetVector<int> setoperations::SetVector<collection>::Select<int>(std::vector<T,std::allocator<_Ty>>,U (__cdecl *)(T))' being compiled
+          with
+          [
+              T=collection,
+              _Ty=collection,
+              U=int
+          ]
+  Test_Lambda_Notation.vcxproj -> C:\Users\Dionn\OneDrive\Documents\Visual Studio 2015\Projects\Lambda_Notation\Test_Lambda_Notation\..\Debug\Test_Lambda_Notation.exe
+  Test_Lambda_Notation.vcxproj -> ..\Debug\Test_Lambda_Notation.pdb (Full PDB)
